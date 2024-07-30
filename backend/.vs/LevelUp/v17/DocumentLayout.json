@@ -1,0 +1,389 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8766235A-05F9-42A6-924B-F949E334BB46}|LevelUp\\LevelUp.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8766235A-05F9-42A6-924B-F949E334BB46}|LevelUp\\LevelUp.csproj|solutionrelative:levelup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEBE28E8-748A-4C7C-9457-D37BDEF197A4}|LevelUp.Infrastructure\\LevelUp.Infrastructure.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.infrastructure\\goalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEBE28E8-748A-4C7C-9457-D37BDEF197A4}|LevelUp.Infrastructure\\LevelUp.Infrastructure.csproj|solutionrelative:levelup.infrastructure\\goalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8766235A-05F9-42A6-924B-F949E334BB46}|LevelUp\\LevelUp.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8766235A-05F9-42A6-924B-F949E334BB46}|LevelUp\\LevelUp.csproj|solutionrelative:levelup\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8766235A-05F9-42A6-924B-F949E334BB46}|LevelUp\\LevelUp.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8766235A-05F9-42A6-924B-F949E334BB46}|LevelUp\\LevelUp.csproj|solutionrelative:levelup\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.services\\levelup.dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|solutionrelative:levelup.services\\levelup.dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F00D4CC-AAA4-40D9-9E89-31139BB270D7}|LevelUp.Core\\LevelUp.Core.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.core\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F00D4CC-AAA4-40D9-9E89-31139BB270D7}|LevelUp.Core\\LevelUp.Core.csproj|solutionrelative:levelup.core\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8766235A-05F9-42A6-924B-F949E334BB46}|LevelUp\\LevelUp.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup\\controllers\\progresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8766235A-05F9-42A6-924B-F949E334BB46}|LevelUp\\LevelUp.csproj|solutionrelative:levelup\\controllers\\progresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.services\\levelup.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|solutionrelative:levelup.services\\levelup.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEBE28E8-748A-4C7C-9457-D37BDEF197A4}|LevelUp.Infrastructure\\LevelUp.Infrastructure.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.infrastructure\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEBE28E8-748A-4C7C-9457-D37BDEF197A4}|LevelUp.Infrastructure\\LevelUp.Infrastructure.csproj|solutionrelative:levelup.infrastructure\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.services\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|solutionrelative:levelup.services\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.services\\levelup.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|solutionrelative:levelup.services\\levelup.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.services\\levelup.services\\progressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|solutionrelative:levelup.services\\levelup.services\\progressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEBE28E8-748A-4C7C-9457-D37BDEF197A4}|LevelUp.Infrastructure\\LevelUp.Infrastructure.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.infrastructure\\progressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEBE28E8-748A-4C7C-9457-D37BDEF197A4}|LevelUp.Infrastructure\\LevelUp.Infrastructure.csproj|solutionrelative:levelup.infrastructure\\progressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.services\\levelup.dtos\\habitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|solutionrelative:levelup.services\\levelup.dtos\\habitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.services\\levelup.dtos\\progressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|solutionrelative:levelup.services\\levelup.dtos\\progressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.services\\levelup.dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|solutionrelative:levelup.services\\levelup.dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.services\\levelup.dtos\\goaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|solutionrelative:levelup.services\\levelup.dtos\\goaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEBE28E8-748A-4C7C-9457-D37BDEF197A4}|LevelUp.Infrastructure\\LevelUp.Infrastructure.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.infrastructure\\habitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEBE28E8-748A-4C7C-9457-D37BDEF197A4}|LevelUp.Infrastructure\\LevelUp.Infrastructure.csproj|solutionrelative:levelup.infrastructure\\habitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEBE28E8-748A-4C7C-9457-D37BDEF197A4}|LevelUp.Infrastructure\\LevelUp.Infrastructure.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.infrastructure\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEBE28E8-748A-4C7C-9457-D37BDEF197A4}|LevelUp.Infrastructure\\LevelUp.Infrastructure.csproj|solutionrelative:levelup.infrastructure\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.services\\levelup.dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|solutionrelative:levelup.services\\levelup.dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.services\\levelup.services\\goalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|solutionrelative:levelup.services\\levelup.services\\goalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.services\\levelup.services\\habitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|solutionrelative:levelup.services\\levelup.services\\habitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|c:\\users\\user\\desktop\\levelupfullpr\\backend\\levelup.services\\levelup.services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DEA74E6-19CC-4731-A3E0-E64C7D051C7D}|LevelUp.Services\\LevelUp.Application.csproj|solutionrelative:levelup.services\\levelup.services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.Services\\UserService.cs",
+              "RelativeDocumentMoniker": "LevelUp.Services\\LevelUp.Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.Services\\UserService.cs",
+              "RelativeToolTip": "LevelUp.Services\\LevelUp.Services\\UserService.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAD4v2AAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:22:25.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GoalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Infrastructure\\GoalRepository.cs",
+              "RelativeDocumentMoniker": "LevelUp.Infrastructure\\GoalRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Infrastructure\\GoalRepository.cs",
+              "RelativeToolTip": "LevelUp.Infrastructure\\GoalRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T09:24:41.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProgressService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.Services\\ProgressService.cs",
+              "RelativeDocumentMoniker": "LevelUp.Services\\LevelUp.Services\\ProgressService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.Services\\ProgressService.cs",
+              "RelativeToolTip": "LevelUp.Services\\LevelUp.Services\\ProgressService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:28:13.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp\\appsettings.json",
+              "RelativeDocumentMoniker": "LevelUp\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp\\appsettings.json",
+              "RelativeToolTip": "LevelUp\\appsettings.json",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-29T09:27:22.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp\\Program.cs",
+              "RelativeDocumentMoniker": "LevelUp\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp\\Program.cs",
+              "RelativeToolTip": "LevelUp\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAMwEcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:26:42.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LevelUp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LevelUp\\Controllers\\UserController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAA5wAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:21:31.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Infrastructure\\UserRepository.cs",
+              "RelativeDocumentMoniker": "LevelUp.Infrastructure\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Infrastructure\\UserRepository.cs",
+              "RelativeToolTip": "LevelUp.Infrastructure\\UserRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAwwCwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:51:18.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "LevelUp.Services\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\MappingProfile.cs",
+              "RelativeToolTip": "LevelUp.Services\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T11:25:29.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "LevelUp.Services\\LevelUp.DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.DTOs\\UserDTO.cs",
+              "RelativeToolTip": "LevelUp.Services\\LevelUp.DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T11:28:51.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProgressController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp\\Controllers\\ProgressController.cs",
+              "RelativeDocumentMoniker": "LevelUp\\Controllers\\ProgressController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp\\Controllers\\ProgressController.cs",
+              "RelativeToolTip": "LevelUp\\Controllers\\ProgressController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAA7wEMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T12:09:05.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Core\\User.cs",
+              "RelativeDocumentMoniker": "LevelUp.Core\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Core\\User.cs",
+              "RelativeToolTip": "LevelUp.Core\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T12:39:51.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LevelUp.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.Application.csproj",
+              "RelativeDocumentMoniker": "LevelUp.Services\\LevelUp.Application.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.Application.csproj",
+              "RelativeToolTip": "LevelUp.Services\\LevelUp.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-29T12:20:41.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProgressRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Infrastructure\\ProgressRepository.cs",
+              "RelativeDocumentMoniker": "LevelUp.Infrastructure\\ProgressRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Infrastructure\\ProgressRepository.cs",
+              "RelativeToolTip": "LevelUp.Infrastructure\\ProgressRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T09:20:47.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HabitDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.DTOs\\HabitDTO.cs",
+              "RelativeDocumentMoniker": "LevelUp.Services\\LevelUp.DTOs\\HabitDTO.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.DTOs\\HabitDTO.cs",
+              "RelativeToolTip": "LevelUp.Services\\LevelUp.DTOs\\HabitDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T11:29:05.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProgressDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.DTOs\\ProgressDTO.cs",
+              "RelativeDocumentMoniker": "LevelUp.Services\\LevelUp.DTOs\\ProgressDTO.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.DTOs\\ProgressDTO.cs",
+              "RelativeToolTip": "LevelUp.Services\\LevelUp.DTOs\\ProgressDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T11:29:18.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.DTOs\\TaskDTO.cs",
+              "RelativeDocumentMoniker": "LevelUp.Services\\LevelUp.DTOs\\TaskDTO.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.DTOs\\TaskDTO.cs",
+              "RelativeToolTip": "LevelUp.Services\\LevelUp.DTOs\\TaskDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T11:29:34.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GoalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.DTOs\\GoalDTO.cs",
+              "RelativeDocumentMoniker": "LevelUp.Services\\LevelUp.DTOs\\GoalDTO.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.DTOs\\GoalDTO.cs",
+              "RelativeToolTip": "LevelUp.Services\\LevelUp.DTOs\\GoalDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T11:29:57.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GoalService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.Services\\GoalService.cs",
+              "RelativeDocumentMoniker": "LevelUp.Services\\LevelUp.Services\\GoalService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.Services\\GoalService.cs",
+              "RelativeToolTip": "LevelUp.Services\\LevelUp.Services\\GoalService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:28:29.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HabitRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Infrastructure\\HabitRepository.cs",
+              "RelativeDocumentMoniker": "LevelUp.Infrastructure\\HabitRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Infrastructure\\HabitRepository.cs",
+              "RelativeToolTip": "LevelUp.Infrastructure\\HabitRepository.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwBoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:52:12.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.DTOs\\LoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "LevelUp.Services\\LevelUp.DTOs\\LoginRequestDTO.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.DTOs\\LoginRequestDTO.cs",
+              "RelativeToolTip": "LevelUp.Services\\LevelUp.DTOs\\LoginRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T09:00:43.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Infrastructure\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "LevelUp.Infrastructure\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Infrastructure\\TaskRepository.cs",
+              "RelativeToolTip": "LevelUp.Infrastructure\\TaskRepository.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAwwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T09:18:18.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HabitService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.Services\\HabitService.cs",
+              "RelativeDocumentMoniker": "LevelUp.Services\\LevelUp.Services\\HabitService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.Services\\HabitService.cs",
+              "RelativeToolTip": "LevelUp.Services\\LevelUp.Services\\HabitService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:28:22.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "LevelUp.Services\\LevelUp.Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LevelUpFullPr\\backend\\LevelUp.Services\\LevelUp.Services\\TaskService.cs",
+              "RelativeToolTip": "LevelUp.Services\\LevelUp.Services\\TaskService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:28:06.885Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
