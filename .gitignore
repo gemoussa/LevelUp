@@ -1,33 +1,61 @@
-﻿.DS_Store
-
-# dotnet core
-bin/
-obj/
-project.lock.json
-NuGetScratch/
-
-api/wwwroot/**
-!api/wwwroot/scratch.html
-!api/wwwroot/favicon.ico
-
-# node
-node_modules/
-typings/
+﻿*/node_modules/*
+*/bin/*
+*/obj/*
+*/vs/*
+# compiled output
+/dist
+/tmp
+/out-tsc
+bin
+obj
+ 
+# dependencies
+node_modules
+ 
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+ 
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+ 
+.vs
+.vs/*
+ 
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
 npm-debug.log
-
-# client-react
-client-react/components/*.js
-client-react.test/build
-!client-react.test/build/client-react/styles/
-
-# ops
-ops/hosts
-ops/config.yml
-ops/*.retry
-
-# other
-*.js.map
-
-# IDE
-.idea/
-.vs/
+yarn-error.log
+testem.log
+/typings
+ 
+# System Files
+.DS_Store
+Thumbs.db
+ 
+# Next.js
+.next
+*/helm/charts
+merged-cobertura-coverage.xml
+*/**/test-report.xml
+rspec.xml
+.pnpm-store
+reports
+apps/helm/schemas/postgres/mocks
+ERD.svg
+supergraph.graphql
+package-lock.json
+pnpm-lock.yaml
