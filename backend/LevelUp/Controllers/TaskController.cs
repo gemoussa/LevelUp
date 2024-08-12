@@ -2,10 +2,12 @@
 using LevelUp.Infrastructure;
 using LevelUp.Core;
 using LevelUp.Application.LevelUp.Services;
+using Microsoft.AspNetCore.Authorization;
 namespace LevelUp.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class TaskController:ControllerBase
     {
         private readonly ITaskService _taskService;

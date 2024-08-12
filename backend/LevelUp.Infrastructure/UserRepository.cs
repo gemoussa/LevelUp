@@ -1,6 +1,7 @@
 ﻿using System.Data;
 using System.Data.Common;
-using Dapper;
+
+    using Dapper;
 using LevelUp.Core;
 namespace LevelUp.Infrastructure
 {
@@ -9,8 +10,12 @@ namespace LevelUp.Infrastructure
         Task<User> GetUserByIdAsync(int id);
         Task<User> GetUserByUsernameAsync(string username);
         Task<int> CreateUserAsync(User user);
-        Task<bool> UpdateUserAsync(User user);
-        Task<bool> DeleteUserAsync(int id);
+        //Task<bool> UpdateUserAsync(User user);
+        //Task<bool> DeleteUserAsync(int id);
+        Task<bool> UserHasPurposeAsync(int userId);
+        Task AddPurposeToUserHomePageAsync(Purpose purpose);
+        Task<int> AddGoalToUserAsync(Goal goal);
+        Task AddHabitToUserAsync(Habit habit);
     }
     public class UserRepository : IUserRepository
     {
@@ -39,29 +44,47 @@ namespace LevelUp.Infrastructure
 
         public async Task<int> CreateUserAsync(User user)
         {
-            var query = "INSERT INTO Users (Username, PasswordHash, Email, IsAdmin, Purpose) VALUES (@Username, @PasswordHash, @Email, @IsAdmin, @Purpose) RETURNING Id";
-           
-                return await _dbConnection.ExecuteScalarAsync<int>(query, user);
+            var query = @"
+                INSERT INTO Users (Username, PasswordHash, Email, IsAdmin) 
+                VALUES (@Username, @PasswordHash, @Email, @IsAdmin ) 
+                RETURNING Id";
+
+            return await _dbConnection.ExecuteScalarAsync<int>(query, user);
          
         }
 
-        public async Task<bool> UpdateUserAsync(User user)
+        public async Task<bool> UserHasPurposeAsync(int userId)
         {
-            var query = "UPDATE Users SET Username = @Username, PasswordHash = @PasswordHash, Email = @Email, IsAdmin = @IsAdmin, Purpose = @Purpose WHERE Id = @Id";
-           
-                var rowsAffected = await _dbConnection.ExecuteAsync(query, user);
-                return rowsAffected > 0;
-            
+            var query = "SELECT COUNT(1) FROM Purpose WHERE UserId = @UserId";
+            var count = await _dbConnection.ExecuteScalarAsync<int>(query, new { UserId = userId });
+            return count > 0;
+        }
+        //adding the sample purpose into the user home page
+        public async Task AddPurposeToUserHomePageAsync(Purpose purpose)
+        {
+            var query = "INSERT INTO Purpose (UserId, Title) VALUES (@UserId, @Title)";
+            await _dbConnection.ExecuteAsync(query, new { UserId = purpose.UserId, Title = purpose.Title });
         }
 
-        public async Task<bool> DeleteUserAsync(int id)
+        public async Task<int> AddGoalToUserAsync(Goal goal)
         {
-            var query = "DELETE FROM Users WHERE Id = @Id";
-           
-                var rowsAffected = await _dbConnection.ExecuteAsync(query, new { Id = id });
-                return rowsAffected > 0;
-            
+            var query = @"
+            INSERT INTO Goals (UserId, Title, StartDate, DueDate, Status, IsAchieved) 
+            VALUES (@UserId, @Title, @StartDate, @DueDate, @Status, @IsAchieved)
+            RETURNING Id";
+
+            return await _dbConnection.ExecuteScalarAsync<int>(query, goal);
         }
+
+        public async Task AddHabitToUserAsync(Habit habit)
+        {
+            var query = @"
+            INSERT INTO Habits (UserId, GoalId, Title, Frequency) 
+            VALUES (@UserId, @GoalId, @Title, @Frequency)";
+
+            await _dbConnection.ExecuteAsync(query, habit);
+        }
+
     }
 
 }

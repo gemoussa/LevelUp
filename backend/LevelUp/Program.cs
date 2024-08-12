@@ -1,12 +1,11 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using LevelUp.Infrastructure;
-using System.Data;
-using Npgsql;
 using LevelUp.Application;
 using LevelUp.Application.LevelUp.Services;
-namespace LevelUp.Application.LevelUp.MappingProfiles;
+using LevelUp.Infrastructure;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Npgsql;
+using System.Data;
+using System.Text;
 
 internal class Program
 {
@@ -16,6 +15,18 @@ internal class Program
 
         // Add services to the container.
         builder.Services.AddControllers();
+
+        // Configure CORS
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("AllowSpecificOrigin",
+                policy =>
+                {
+                    policy.WithOrigins("http://localhost:3001") // Update this to your front-end URL
+                          .AllowAnyHeader()
+                          .AllowAnyMethod();
+                });
+        });
 
         // Configure Swagger/OpenAPI
         builder.Services.AddEndpointsApiExplorer();
@@ -40,17 +51,25 @@ internal class Program
         // Configure IDbConnection
         builder.Services.AddScoped<IDbConnection>(provider =>
             new NpgsqlConnection(builder.Configuration.GetConnectionString("DefaultConnection")));
-
         // Register application services and repositories
         builder.Services.AddScoped<IUserService, UserService>();
         builder.Services.AddScoped<IUserRepository, UserRepository>();
         builder.Services.AddScoped<IProgressRepository, ProgressRepository>();
         builder.Services.AddScoped<IGoalRepository, GoalRepository>();
+        builder.Services.AddScoped<IGoalService, GoalService>();
+        builder.Services.AddScoped<IHabitService, HabitService>();
         builder.Services.AddScoped<IHabitRepository, HabitRepository>();
         builder.Services.AddScoped<ITaskRepository, TaskRepository>();
-         
-        builder.Services.AddAutoMapper(typeof(MappingProfile));
+        builder.Services.AddScoped<ISampleRepository, SampleRepository>();
+        builder.Services.AddScoped<IProfileRepository, ProfileRepository>();
+        builder.Services.AddScoped<IProfileService, ProfileService>();
+        builder.Services.AddScoped<IPurposeService, PurposeService>();
+        builder.Services.AddScoped<ITemplateService, TemplateService>();
+        builder.Services.AddScoped<IPurposeRepository, PurposeRepository>();
+       
+       
 
+        builder.Services.AddAutoMapper(typeof(MappingProfile));
 
         // Build the app
         var app = builder.Build();
@@ -63,6 +82,10 @@ internal class Program
         }
 
         app.UseHttpsRedirection();
+
+        // Use CORS policy
+        app.UseCors("AllowSpecificOrigin");
+
         app.UseAuthentication();
         app.UseAuthorization();
         app.MapControllers();

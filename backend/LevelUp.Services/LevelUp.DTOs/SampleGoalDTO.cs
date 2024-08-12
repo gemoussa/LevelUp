@@ -6,14 +6,10 @@ using System.Threading.Tasks;
 
 namespace LevelUp.Application.LevelUp.DTOs
 {
-    public class GoalDTO
+    public class SampleGoalDTO
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime DueDate { get; set; }
-        public int UserId { get; set; }
-        public List<HabitDTO> Habits { get; set; } = new List<HabitDTO>();
-
+        public DateTime? DueDate { get; set; }
     }
 }

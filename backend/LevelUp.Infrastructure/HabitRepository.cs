@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Dapper;
 using LevelUp.Core;
+using Microsoft.AspNetCore.Mvc;
 
 namespace LevelUp.Infrastructure
 {
@@ -17,6 +18,7 @@ namespace LevelUp.Infrastructure
         Task<IEnumerable<Habit>> GetAllHabitsAsync();
         Task<bool> UpdateHabitAsync(Habit habit);
         Task<bool> DeleteHabitAsync(int id);
+        Task<IEnumerable<Habit>> GetHabitsByGoalIdAsync(int goalId);
     }
 
     public class HabitRepository : IHabitRepository
@@ -44,7 +46,7 @@ namespace LevelUp.Infrastructure
 
         public async Task<int> CreateHabitAsync(Habit habit)
         {
-            var query = "INSERT INTO Habits (GoalId, Title, Description, Frequency) VALUES (@GoalId, @Title, @Description, @Frequency) RETURNING Id";
+            var query = "INSERT INTO Habits (GoalId, Title, Description, Frequency) VALUES (@GoalId, @Title, @Frequency) RETURNING Id";
            
                 return await _dbConnection.ExecuteScalarAsync<int>(query, habit);
             
@@ -52,7 +54,7 @@ namespace LevelUp.Infrastructure
 
         public async Task<bool> UpdateHabitAsync(Habit habit)
         {
-            var query = "UPDATE Habits SET GoalId = @GoalId, Title = @Title, Description = @Description, Frequency = @Frequency WHERE Id = @Id";
+            var query = "UPDATE Habits SET GoalId = @GoalId, Title = @Title, Frequency = @Frequency WHERE Id = @Id";
            
                 var rowsAffected = await _dbConnection.ExecuteAsync(query, habit);
                 return rowsAffected > 0;
@@ -67,6 +69,12 @@ namespace LevelUp.Infrastructure
                 return rowsAffected > 0;
             
         }
+        public async Task<IEnumerable<Habit>> GetHabitsByGoalIdAsync(int goalId)
+        {
+            var query = "SELECT * FROM Habits WHERE GoalId = @GoalId";
+            return await _dbConnection.QueryAsync<Habit>(query, new { GoalId = goalId });
+        }
+
     }
 
 }

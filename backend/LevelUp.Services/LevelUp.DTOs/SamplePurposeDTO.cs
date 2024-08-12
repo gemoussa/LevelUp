@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace LevelUp.Application.LevelUp.DTOs
 {
-    public class HabitDTO
+    public class SamplePurposeDTO
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Frequency { get; set; }
-        public int UserId { get; set; }
+       
     }
 }

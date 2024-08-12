@@ -1,0 +1,38 @@
+.profile-setup {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-setup h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .profile-setup .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .profile-setup .form-label {
+    font-weight: bold;
+  }
+  
+  .profile-setup .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .profile-setup .btn-primary {
+    background-color: #12B4A9;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-setup .btn-primary:hover {
+    background-color: #0a8777;
+  }
+  

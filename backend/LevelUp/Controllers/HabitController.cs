@@ -3,6 +3,7 @@ using LevelUp.Core;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using LevelUp.Application.LevelUp.DTOs;
 
 namespace LevelUp.Controllers
 {
@@ -75,6 +76,17 @@ namespace LevelUp.Controllers
             }
 
             return NoContent();
+        }
+        //display
+        [HttpGet("goal/{goalId}")]
+        public async Task<ActionResult<IEnumerable<HabitDTO>>> GetHabitsByGoalId(int goalId)
+        {
+            var habits = await _habitService.GetHabitsByGoalIdAsync(goalId);
+            if (habits == null || !habits.Any())
+            {
+                return NotFound($"No habits found for goal with ID {goalId}");
+            }
+            return Ok(habits);
         }
     }
 }

@@ -1,0 +1,65 @@
+.template-background {
+    background-color: var(--primary-color);
+    min-height: 100vh;   
+}
+.container h2 {
+    font-size: 1.5rem;
+    color: var(--sec-text);
+    margin-bottom: 20px;
+}
+.purposes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.purpose-card {
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-buttons);
+    border-radius: 12px;
+    padding: 15px;
+    width: calc(33.333% - 30px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.purpose-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.purpose-card-header h3 {
+    font-size: 1.25rem;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+.goal-container {
+    margin-bottom: 30px;
+}
+.goal-container h3 {
+    font-size: 1.25rem;
+    color: var(--sec-text);
+    margin-bottom: 15px;
+}
+.table {
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-buttons);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width:400px;
+}
+
+.table th, .table td {
+    font-size: 1rem;
+    color: var(--prim-text);
+}
+
+@media (max-width: 768px) {
+    .purpose-card {
+        width: calc(50% - 20px); /* Adjust width for 2 items per row with gap */
+    }
+}
+
+@media (max-width: 480px) {
+    .purpose-card {
+        width: 100%; /* Full width for single column */
+    }
+}

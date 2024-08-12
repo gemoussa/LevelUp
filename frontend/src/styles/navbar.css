@@ -1,0 +1,45 @@
+
+.navbar-custom {
+    background-color: var(--primary-color); 
+    padding: 1rem 2rem; 
+  }
+  
+
+  .navbar-custom .navbar-brand {
+    font-size: 1.5rem;
+    color: var(--sec-text); 
+  }
+  
+  
+  .navbar-custom .nav-link {
+    color: var(--sec-text); 
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: var(--primary-buttons); }
+ 
+ 
+
+.navbar-custom .btn-link {
+  color: var(--sec-text);
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-custom .btn-link:hover {
+  color: var(--primary-buttons);
+}
+
+
+
+  @media (max-width: 767.98px) {
+    .navbar-custom {
+      padding: 0.5rem 1rem; 
+    }
+  
+    .navbar-custom .navbar-brand {
+      font-size: 1.25rem; 
+    }
+  }
+  

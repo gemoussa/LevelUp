@@ -1,32 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AutoMapper;
-using LevelUp.Core;
+﻿using AutoMapper;
 using LevelUp.Application.LevelUp.DTOs;
+using LevelUp.Core;
 
-namespace LevelUp.Application
+public class MappingProfile : Profile
 {
-    public class MappingProfile : Profile
+    public MappingProfile()
     {
-        public MappingProfile()
-        {
-            CreateMap<User, UserDTO>();
-            CreateMap<UserDTO, User>();
+        CreateMap<User, UserDTO>()
+            .ForMember(dest => dest.Password, opt => opt.Ignore()); // Excluding password from DTO
 
-            CreateMap<Goal, GoalDTO>();
-            CreateMap<GoalDTO, Goal>();
+        CreateMap<UserDTO, User>()
+            .ForMember(dest => dest.PasswordHash, opt => opt.MapFrom(src => BCrypt.Net.BCrypt.HashPassword(src.Password)))
+            .ForMember(dest => dest.Id, opt => opt.Ignore()); // Ignoring Id on update
 
-            CreateMap<Habit, HabitDTO>();
-            CreateMap<HabitDTO, Habit>();
+        CreateMap<Goal, GoalDTO>();
+        CreateMap<GoalDTO, Goal>();
 
-            CreateMap<Task, TaskDTO>();
-            CreateMap<TaskDTO, Task>();
+        CreateMap<Habit, HabitDTO>();
+        CreateMap<HabitDTO, Habit>();
 
-            CreateMap<Progress, ProgressDTO>();
-            CreateMap<ProgressDTO, Progress>();
-        }
+        CreateMap<Task, TaskDTO>();
+        CreateMap<TaskDTO, Task>();
+
+        CreateMap<Progress, ProgressDTO>();
+        CreateMap<ProgressDTO, Progress>();
+
+        CreateMap<SampleGoal, SampleGoalDTO>();
+        CreateMap<SampleHabit, SampleHabitDTO>();
+
+        CreateMap<SamplePurpose, SamplePurposeDTO>();
+
+
+        CreateMap<SamplePurposeDTO, SamplePurpose>();
+     
     }
 }

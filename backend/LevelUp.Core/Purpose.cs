@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LevelUp.Application.LevelUp.DTOs
+namespace LevelUp.Core
 {
-    public class HabitDTO
+    public class Purpose
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Frequency { get; set; }
         public int UserId { get; set; }
+        public string Title { get; set; }
     }
 }
