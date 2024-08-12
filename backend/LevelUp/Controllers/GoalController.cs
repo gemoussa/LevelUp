@@ -26,17 +26,6 @@ namespace LevelUp.Controllers
             return Ok(goal);
         }
 
-        //[HttpGet("user/{userId}")]
-        //public async Task<IActionResult> GetGoalsByUserId(int userId)
-        //{
-        //    var goals = await _goalService.GetGoalsByUserIdAsync(userId);
-        //    if (goals == null)
-        //    {
-        //        // Ensure you always return an empty list rather than null
-        //        goals = new List<GoalDTO>();
-        //    }
-        //    return Ok(goals);
-        //}
 
         [HttpGet("user/{userId}")]
         public async Task<IActionResult> GetGoalsByUserId(int userId)
@@ -92,6 +81,7 @@ namespace LevelUp.Controllers
             await _goalService.DeleteGoalAsync(id);
             return NoContent();
         }
+
         [HttpPost("user/{userId}/goal/{goalId}")]
         public async Task<IActionResult> AddGoalToUser(int userId, int goalId)
         {
